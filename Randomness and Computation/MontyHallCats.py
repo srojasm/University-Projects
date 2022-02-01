@@ -1,4 +1,3 @@
-# homework 5
 
 from random import shuffle, choice
 
@@ -38,6 +37,3 @@ def MonteCarlo(num):
     print("Number of plays:", num)
     print("Probability of success without a switch:", (stay_success_count/num))
     print("Probability of success with a switch:", (switch_success_count/num))
-
-
-MonteCarlo(10000)
